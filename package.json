@@ -1,0 +1,24 @@
+{
+  "name": "open-theater-trigger-server-demo",
+  "version": "1.0.0",
+  "description": "A minimal demo server setup for the <a href=\"https://gitlab.com/open-theater/open-theater-api\">Open Theater API</a>'s Trigger API.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/open-theater/open-theater-trigger-server-demo.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/open-theater/open-theater-trigger-server-demo/issues"
+  },
+  "homepage": "https://gitlab.com/open-theater/open-theater-trigger-server-demo#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
