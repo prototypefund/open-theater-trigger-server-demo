@@ -35,5 +35,7 @@ For simplicities sake, its just operating with HTTP and does not include encrypt
 
 Feel free to fork and add config files, TLS support etc.
 
+Or use nginx or another webserver as reverse proxy
+
 It also only supports one Open Theater project and it's channels and therefore exposes only one trigger endpoint.
 For multiproject support, you can extend with routes and seperate socket.io instances.
